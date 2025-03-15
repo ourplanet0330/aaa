@@ -15,7 +15,7 @@ export function configAuthentication(registryUrl: string, alwaysAuth: string) {
 
   writeRegistryToFile(registryUrl, npmrc, alwaysAuth);
 }
-
+//this is function to write registry to file
 function writeRegistryToFile(
   registryUrl: string,
   fileLocation: string,
