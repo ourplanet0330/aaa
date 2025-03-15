@@ -13,6 +13,8 @@ export function configAuthentication(registryUrl: string, alwaysAuth: string) {
     registryUrl += '/';
   }
 
+  
+
   writeRegistryToFile(registryUrl, npmrc, alwaysAuth);
 }
 
